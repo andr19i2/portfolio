@@ -5,6 +5,15 @@ video {
   height: auto;
 }
 
+.logo_web {
+    min-width: 90px;
+    max-width: 200px;
+    padding: 0px;
+  }
+
+  .logo_web {
+    display: inline-block;
+  }
 u{
     cursor: pointer;
 }
@@ -249,6 +258,8 @@ padding: 1rem;
     .section_1{
         background-color: #A6A998;
     }
+
+
     }
 
     .section_wrapper1{

@@ -12,7 +12,7 @@ header {
 
 .mig .button {
     display: grid;
-    grid-template-columns: 1fr auto 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     margin-bottom: 1rem;
 }
 
@@ -20,13 +20,16 @@ header {
     display: block;
     background-color: #3D4552;
     height: 2rem;
-    width: 5rem;
-    border: 2px solid;
+    width: 8rem;
+    border: 2px solid #3D4552;
     margin-top: 1rem;
-    grid-column: 2/3;
+    grid-column: 3/3;
+    transition-duration: 0.4s;
     
 
 }
+
+  
 
 header .logo_web img {
     margin-bottom: 0;
@@ -100,6 +103,8 @@ a{
     font-family: "Lato", sans-serif;
     
 }
+
+
 .wide{
     place-content: center;
     margin:1rem;
@@ -231,13 +236,20 @@ padding: 1rem;
     padding-left:1.5rem;
     padding-right:1.5rem;
     padding-bottom:1.2rem;
+
+}
+
+.image_grid{
+    gap:10px;
 }
   @media (min-width: 1000px){
       .image_grid{
           display:grid;
           grid-template-columns: 1fr 1fr 1fr;
           gap:10px;
-          border-radius: 10px;
+          padding-left: 1rem;
+          padding-right:1rem;
+          padding-top:1rem;
       }
 
     .profil {

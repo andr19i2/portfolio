@@ -29,7 +29,14 @@ header {
 
 }
 
-  
+      
+  .hero{
+    grid-area: 1/1;
+    width: 100%;
+    object-fit: cover;
+    object-position: 50% 100%;
+    z-index: -1;
+  }
 
 header .logo_web img {
     margin-bottom: 0;
@@ -110,7 +117,7 @@ a{
 }
 
 
-.wide{
+.tekst_video{
     place-content: center;
     margin:1rem;
     padding:0rem;

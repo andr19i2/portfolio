@@ -24,19 +24,13 @@ header {
     border: 2px solid #3D4552;
     margin-top: 1rem;
     grid-column: 3/3;
-    transition-duration: 0.4s;
+    
     
 
 }
 
       
-  .hero{
-    grid-area: 1/1;
-    width: 100%;
-    object-fit: cover;
-    object-position: 50% 100%;
-    z-index: -1;
-  }
+
 
 header .logo_web img {
     margin-bottom: 0;
@@ -370,8 +364,18 @@ padding: 1rem;
         grid-column: 2/3;
         line-height: 23px;
         padding-bottom: 2rem;
+    
     }
     
+    .hero{
+        grid-column: 2/3;
+      }
+    
+      .wide{
+          display: grid;
+          grid-template-columns: 1fr 2fr 1fr;
+          padding:1rem
+      }
 
 }
 

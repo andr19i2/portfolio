@@ -144,7 +144,7 @@ p{
     letter-spacing: 1px;
     margin-bottom: 1rem;
   }
-/*INDEX KNAPPER */
+/*INDEX*/
 
   .knapper{
     display:flex;
@@ -175,7 +175,7 @@ p{
   font-size:1.5rem;
 }
 
-/*INDEX KNAPPER SLUT*/
+/*INDEX SLUT*/
 
 /*FOOTER START*/
  footer{
@@ -414,7 +414,7 @@ margin:1rem; }
     }
  /*OM MIG SLUT*/
 
- /*TAGET FRA DANNIE - REDESIGN*/
+ /*KONTAKTFORMULAR TAGET FRA DANNIE - REDESIGN*/
  .form_section {
   display: grid;
   grid-template-columns: 1fr 2fr 1fr;
@@ -540,6 +540,6 @@ padding-bottom: 4rem;
         grid-column: 1/3;
         text-align: center;
     }
-    
+     /*INDEX SLUT*/
       
 }

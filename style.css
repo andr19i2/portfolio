@@ -1,3 +1,5 @@
+/*GENERELT*/
+
 img,
 video {
   display: block;
@@ -9,28 +11,6 @@ header {
  
     
 }
-
-.mig .button {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    margin-bottom: 1rem;
-}
-
-.mig .button button{   
-    display: block;
-    background-color: #3D4552;
-    height: 2rem;
-    width: 8rem;
-    border: 2px solid #3D4552;
-    margin-top: 1rem;
-    grid-column: 3/3;
-    
-    
-
-}
-
-      
-
 
 header .logo_web img {
     margin-bottom: 0;
@@ -62,6 +42,14 @@ header nav ul a{
 u{
     cursor: pointer;
 }
+.back{
+    grid-column: 1/3;
+    padding: 1rem;
+
+   }
+  
+
+/*FONTE OG FARVER*/
 
 h1{color:#C09984;
     font-family: "Lato", sans-serif;
@@ -74,34 +62,11 @@ h2{color:#3D4552;
    
 
 }
-
-.h2_mig{
-    text-align: center;
-}
-.cv1{color:#3D4552;
-    font-family: "Lato", sans-serif;
-    font-size:2rem;
-    text-align: center;
-
-}
 h3{color:#3D4552;
     font-family: "Lato", sans-serif;
     font-size:1rem;
 
 }
-
-p{
-    font-family: "Lato", sans-serif;
-    font-size: 0.85rem;
-    letter-spacing: 1px;
-    margin-bottom: 1rem;
-  }
-
-  
-.text2{
-    line-height:2rem;
-}
-
 
 a{
     text-decoration: none;
@@ -109,7 +74,14 @@ a{
     font-family: "Lato", sans-serif;
     
 }
+p{
+    font-family: "Lato", sans-serif;
+    font-size: 0.85rem;
+    letter-spacing: 1px;
+    margin-bottom: 1rem;
+  }
 
+/*INDEX.HTML*/
 
 .tekst_video{
     place-content: center;
@@ -120,6 +92,7 @@ a{
 }
 
 
+/*FOOTER START*/
  footer{
         padding: 1rem;
         background-color: #C09984;
@@ -150,6 +123,23 @@ a{
     margin-left: 0rem;
     color:#E5E3D7
   }
+/*FOOTER SLUT*/
+
+
+
+/*PROJEKTER - LÆS MERE SIDER*/
+.web_main{
+    display:grid;
+    grid-template-columns: 1fr 2fr 1fr;
+}
+.web1{
+    grid-column: 2/3;
+}
+/*PROJEKTER - LÆS MERE SIDER SLUT*/
+
+
+  /*OMG MIG START*/
+
   .profil .col_left img {
     display: block;
     margin-left: auto;
@@ -191,18 +181,50 @@ padding: 1rem;
     background-color: #A6A998;
     padding: 1rem;
   }
-  
-.p2,.p3,.p4,.p5{
-    background:#3D4552;
+  .mig .button {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-bottom: 1rem;
+}
+
+.mig .button button{   
+    display: block;
+    background-color: #3D4552;
+    height: 2rem;
+    width: 8rem;
+    border: 2px solid #3D4552;
     margin-top: 1rem;
-  padding: 0.75rem;
-  font-weight: 700;
-  border-radius: 4px;
-  max-width: 11rem;
- margin-top:-2rem;
-  
+    grid-column: 3/3;
+    
+    
 
 }
+
+.h2_mig{
+    text-align: center;
+}
+.cv1{color:#3D4552;
+    font-family: "Lato", sans-serif;
+    font-size:2rem;
+    text-align: center;
+
+}
+  
+.text2{
+    line-height:2rem;
+}
+
+.text{
+    margin-left:1.5rem;
+    margin-right:1rem;
+    line-height: 1.5;
+}
+.image_grid{
+    gap:10px;
+}
+    /*OMG MIG SLUT*/
+  
+.
 /* .web_knap{
     background-color: #3D4552;
     border: none;
@@ -215,11 +237,12 @@ padding: 1rem;
     margin-top: 1rem;
   } */
 
+  
+
+  /*PROJEKTER START*/
   .section_wrapper{
-      padding:1rem;
-  }
-
-
+    padding:1rem;
+}
 .p1{text-align: center;
     padding-left: 3rem;
     padding-right: 3rem;
@@ -227,15 +250,22 @@ padding: 1rem;
     font-size:16px;
 }
 
- .text{
-    margin-left:1.5rem;
-    margin-right:1rem;
-    line-height: 1.5;
+.p5{
+    background:#3D4552;
+    margin-top: 1rem;
+  padding: 0.75rem;
+  font-weight: 700;
+  border-radius: 4px;
+  max-width: 11rem;
+ margin-top:-2rem;
+  
+
 }
+ 
 .section_2{
     background-color: #A6A998;
 }
- }
+
  
   .image{
     margin-top:35px;
@@ -244,10 +274,9 @@ padding: 1rem;
     padding-bottom:1.2rem;
 
 }
+ /*PROJEKTER SLUT*/
 
-.image_grid{
-    gap:10px;
-}
+/*OM MIG SIDEN*/
   @media (min-width: 1000px){
       .image_grid{
           display:grid;
@@ -294,6 +323,16 @@ padding: 1rem;
           border-bottom: 2px solid #D9C2B0; ;
       }
 
+      .text{
+        grid-column: 2/3;
+        line-height: 23px;
+        padding-bottom: 2rem;
+      
+    }
+ /*OM MIG SLUT*/
+
+    
+/*GENERELT*/
      .logo_web img {
         margin-bottom: 0;
         margin-top: 0;
@@ -314,7 +353,29 @@ padding: 1rem;
         justify-content: center;
     }
   
-    
+    /*PROJEKTER START*/
+      .col_left{
+        grid-template-columns: 1fr 1fr;
+     }
+     
+     .col_right{
+         grid-template-columns: 1fr 1fr;
+     }
+     
+     .col_left1{
+         grid-template-columns: 1fr 1fr;
+     }
+     
+     .col_right1{
+         grid-template-columns: 1fr 1fr;
+     
+     }
+     .text{
+         grid-column: 2/3;
+         line-height: 23px;
+         padding-bottom: 2rem;
+     
+     }
     .section_wrapper{
         display:grid;
         grid-template-columns: 1fr 1fr;
@@ -337,68 +398,30 @@ padding: 1rem;
         line-height: 23px;
     }
     
-    .text{
-        grid-column: 2/3;
-        line-height: 23px;
-        padding-bottom: 2rem;
-      
-    }
+  /*PROJEKTER SLUT*/  
     
-    .col_left{
-       grid-template-columns: 1fr 1fr;
-    }
-    
-    .col_right{
-        grid-template-columns: 1fr 1fr;
-    }
-    
-    .col_left1{
-        grid-template-columns: 1fr 1fr;
-    }
-    
-    .col_right1{
-        grid-template-columns: 1fr 1fr;
-    
-    }
-    .text{
-        grid-column: 2/3;
-        line-height: 23px;
-        padding-bottom: 2rem;
-    
-    }
-    
-    .hero{
-        grid-column: 2/3;
-      }
-    
+    /*INDEX START*/
+
       .wide{
           display: grid;
           grid-template-columns: 1fr 2fr 1fr;
-          padding:1rem
+          padding:1rem;
+    
+      }
+      .hero{
+        grid-column: 2/3;
+
       }
 
 }
 
 
 
-    .section_wrapper1{
+    /* .section_wrapper1{
         text-align: center;
         
        
-    }
+    } */
     
-   .web_main{
-       display:grid;
-       grid-template-columns: 1fr 2fr 1fr;
-   }
-   .web1{
-       grid-column: 2/3;
-   }
-   .back{
-    grid-column: 1/3;
-    padding: 1rem;
-
-   }
-  
 
   
